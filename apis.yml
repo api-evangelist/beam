@@ -1,8 +1,27 @@
 aid: beam
 name: Beam
-description: 'Beam is a company surfaced as a portfolio company of accel, index-ventures, obvious-ventures,
-  partech, techstars and added to the API Evangelist network as a stub for enrichment. Sector: payments.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Beam is a construction financial management platform for residential
+  and commercial contractors, headquartered in San Francisco. Its cloud software unifies
+  estimating and proposals, progress invoicing with online payment collection, job
+  costing and real-time profitability, expense management via the Beam Card, bill-pay
+  automation, lien-waiver and compliance tracking, project management (daily logs,
+  scheduling, change orders), and a cash-management account that earns cash back.
+  Beam integrates with QuickBooks Online, CompanyCam, RenoFi and XactRemodel, and relies
+  on vetted partners including Stripe, Footprint and CapitalOS for payments and KYC/KYB.
+  Beam does not currently publish a public developer API, documentation surface, or
+  SDKs; this profile captures its identity and security posture.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/64ae8206e4312cd55025a802/6664e4d0b1faf5a471102480_og_image.png
 url: https://raw.githubusercontent.com/api-evangelist/beam/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,10 +35,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Payments
+- Construction
+- Fintech
+- Invoicing
+- Job Costing
+- Expense Management
+- Contractors
+- Cash Management
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,5 +54,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/beam-domain-security.yml
 - type: Website
-  url: https://www.usebeam.co/
+  url: https://www.trybeam.com/
+- type: Pricing
+  url: https://www.trybeam.com/pricing
+- type: SignUp
+  url: https://app.trybeam.com/sign-up
+- type: TermsOfService
+  url: https://www.trybeam.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.trybeam.com/privacy-policy
+- type: Blog
+  url: https://www.trybeam.com/resources
+- type: HelpCenter
+  url: https://faq.trybeam.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
