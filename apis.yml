@@ -10,6 +10,17 @@ description: 'Beam is a construction financial management platform for residenti
   on vetted partners including Stripe, Footprint and CapitalOS for payments and KYC/KYB.
   Beam does not currently publish a public developer API, documentation surface, or
   SDKs; this profile captures its identity and security posture.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
